@@ -23,3 +23,27 @@
   background-color:red;
   font-size:20px;
 }
+      .dbkerk {
+      /* The image used */
+      background-image: url('denboschkerk.jpg');
+
+      height: 50%; 
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+      .bbol {
+      /* The image used */
+      background-image: url('bosschebol.jpg');
+
+      height: 50%; 
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
