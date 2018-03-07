@@ -3,13 +3,64 @@
   <head>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <title> Wandelroutes in Den Bosch</title>
-  </head>
-  <body>
-      <p>
-        <H1> Wandelroutes </H1>
-      </br>
-          <H2>Shopping wandelroute</H2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m76!1m12!1m3!1d2473.461110018672!2d5.302063738052991!3d51.68800641634509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e2!4m5!1s0x47c6eef49f42ab71%3A0xaeeb157731fddfe8!2sVughterstraat%2C+&#39;s-Hertogenbosch!3m2!1d51.6861945!2d5.2982184!4m5!1s0x47c6eef493090f79%3A0x6a4cdabfce88aff6!2sKOEKWAUS+Den+Bosch!3m2!1d51.687696599999995!2d5.301614799999999!4m5!1s0x47c6eef5b3bd6355%3A0x941d8f92f7d7f2af!2sLiefste+Boutique%2C+Snellestraat%2C+&#39;s-Hertogenbosch!3m2!1d51.6882178!2d5.3015668!4m5!1s0x47c6eef5bbd10b69%3A0x652c343ea8b7bb7f!2svanDaan%2C+Minderbroedersstraat%2C+&#39;s-Hertogenbosch!3m2!1d51.6887839!2d5.301629999999999!4m5!1s0x47c6eef5fdd0624f%3A0x90d484982f8a5ebf!2sDe+Pijp-Leer+%26+Ambacht%2C+Burgemeester+Loeffplein%2C+&#39;s-Hertogenbosch!3m2!1d51.690135!2d5.303897!4m5!1s0x47c6eef679886fed%3A0x4685ef7f2294451e!2sJuul%2C+Kolperstraat%2C+&#39;s-Hertogenbosch!3m2!1d51.6883817!2d5.3041192!4m5!1s0x47c6eef67daef0c3%3A0xda877d7dac9b7f93!2sFonteinstraat%2C+5211+HP+&#39;s-Hertogenbosch!3m2!1d51.6879767!2d5.3042641999999995!4m5!1s0x47c6eef663148a13%3A0x89dc299f4d2904e6!2sYAYA%2C+Krullartstraat%2C+&#39;s-Hertogenbosch!3m2!1d51.688060199999995!2d5.3045994!4m5!1s0x47c6eef6928a7559%3A0x6ee1615e5ba958bf!2sRobbies%2C+Verwersstraat%2C+&#39;s-Hertogenbosch!3m2!1d51.687081!2d5.3049034!4m5!1s0x47c6eef8273fd555%3A0x194fcd31c7e3906a!2sConceptstore+21%2C+Hinthamerstraat%2C+&#39;s-Hertogenbosch!3m2!1d51.688469!2d5.3103963!5e0!3m2!1snl!2snl!4v1519835717143" width="600" height="450" frameborder="0" style="border:0" allowfullscreen> </iframe>
+
+    <style>
+    div.container {
+        width: 100%;
+        border: 1px solid gray;
+    }
+
+    header, footer {
+        padding: 1em;
+        color: white;
+        background-color: black;
+        clear: left;
+        text-align: center;
+    }
+
+    nav {
+        float: left;
+        max-width: 75%;
+        margin: 0;
+        padding: 1em;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav ul a {
+        text-decoration: none;
+    }
+
+    article {
+        margin-left: 25%;
+        border-left: 1px solid gray;
+        padding: 1em;
+        overflow: hidden;
+    }
+    </style>
+    </head>
+    <body>
+
+    <div class="container">
+
+    <header>
+       <h1>Wandelroutes</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Wandelroute winkels</a></li>
+        <li><a href="#">Wandelroute natuur</a></li>
+        <li><a href="#">Wandelroute bezienswaardigheden</a></li>
+      </ul>
+    </nav>
+
+    <article>
+      <h1>Wandelroute winkels</h1>
+      <p>  <iframe src="https://www.google.com/maps/embed?pb=!1m76!1m12!1m3!1d2473.461110018672!2d5.302063738052991!3d51.68800641634509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e2!4m5!1s0x47c6eef49f42ab71%3A0xaeeb157731fddfe8!2sVughterstraat%2C+&#39;s-Hertogenbosch!3m2!1d51.6861945!2d5.2982184!4m5!1s0x47c6eef493090f79%3A0x6a4cdabfce88aff6!2sKOEKWAUS+Den+Bosch!3m2!1d51.687696599999995!2d5.301614799999999!4m5!1s0x47c6eef5b3bd6355%3A0x941d8f92f7d7f2af!2sLiefste+Boutique%2C+Snellestraat%2C+&#39;s-Hertogenbosch!3m2!1d51.6882178!2d5.3015668!4m5!1s0x47c6eef5bbd10b69%3A0x652c343ea8b7bb7f!2svanDaan%2C+Minderbroedersstraat%2C+&#39;s-Hertogenbosch!3m2!1d51.6887839!2d5.301629999999999!4m5!1s0x47c6eef5fdd0624f%3A0x90d484982f8a5ebf!2sDe+Pijp-Leer+%26+Ambacht%2C+Burgemeester+Loeffplein%2C+&#39;s-Hertogenbosch!3m2!1d51.690135!2d5.303897!4m5!1s0x47c6eef679886fed%3A0x4685ef7f2294451e!2sJuul%2C+Kolperstraat%2C+&#39;s-Hertogenbosch!3m2!1d51.6883817!2d5.3041192!4m5!1s0x47c6eef67daef0c3%3A0xda877d7dac9b7f93!2sFonteinstraat%2C+5211+HP+&#39;s-Hertogenbosch!3m2!1d51.6879767!2d5.3042641999999995!4m5!1s0x47c6eef663148a13%3A0x89dc299f4d2904e6!2sYAYA%2C+Krullartstraat%2C+&#39;s-Hertogenbosch!3m2!1d51.688060199999995!2d5.3045994!4m5!1s0x47c6eef6928a7559%3A0x6ee1615e5ba958bf!2sRobbies%2C+Verwersstraat%2C+&#39;s-Hertogenbosch!3m2!1d51.687081!2d5.3049034!4m5!1s0x47c6eef8273fd555%3A0x194fcd31c7e3906a!2sConceptstore+21%2C+Hinthamerstraat%2C+&#39;s-Hertogenbosch!3m2!1d51.688469!2d5.3103963!5e0!3m2!1snl!2snl!4v1519835717143" width="600" height="450" frameborder="0" style="border:0" allowfullscreen> </iframe>
 </br>
  Kijkt u in de Vughterstraat ook naar de winkels:
  <OL>
@@ -22,24 +73,21 @@
   <OL>
     <LI>Lott Gioielli</LI>
     <LI>Hello Den Bosch</LI>
-  </OL>
-      </p>
-</br>
-      <p>
-        <H2>Wandelroute door de natuur</H2>
+  </OL></p>
+
+    </article>
+    <article>
+        <h1>Wandelroute natuur</h1>
         <iframe src="https://www.google.com/maps/embed?pb=!1m60!1m12!1m3!1d27979.480198102952!2d5.267393082086891!3d51.6953466905523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m45!3e2!4m3!3m2!1d51.6866832!2d5.3031215!4m5!1s0x47c6ec34545aefc7%3A0x1004d86146e182cf!2sMoerputten%2C+Citadellaan+44%2C+5212+VE+&#39;s-Hertogenbosch!3m2!1d51.690120199999996!2d5.2486980999999995!4m3!3m2!1d51.6879475!2d5.2438604!4m3!3m2!1d51.686785799999996!2d5.2522851!4m3!3m2!1d51.6822812!2d5.2883!4m3!3m2!1d51.6882988!2d5.2953608!4m3!3m2!1d51.687118299999995!2d5.2973902!4m3!3m2!1d51.6873368!2d5.2995293!4m3!3m2!1d51.687004099999996!2d5.3030652!4m5!1s0x47c6eef420694f2f%3A0x1539dddba06d611e!2sParkeergarage+Wolvenhoek!3m2!1d51.6867203!2d5.3032375!5e0!3m2!1snl!2snl!4v1519842059269" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </br>
+      <p>
         Maak een mooi wandeling vanuit het centrum van Den Bosch naar de Moerputten over een oude spoorbrug uit 1887. Deze brug is sinds 1995 een rijksmonument. Geniet van de prachtige stad en de omliggende natuur!
       </p>
-</br>
-      <p>
-        <H2>Wandelroute langs Bossche monumenten</H2>
-        
-</br> 
-        Een mooie leerzame route langs de mooiste en belangrijkste monumenten van Den Bosch. 
-        De monumenten hebben ieder op zich een andere gedachten bij ieder een speciale gebreurtenis. 
-        Geniert van de prachtige omgeving en monumenten.
-        
-      </p>
+    </article>
+    <footer>Copyright &copy; VisitDenBosch</footer>
+
+    </div>
+
+
   </body>
 </html>
