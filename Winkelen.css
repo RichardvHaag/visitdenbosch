@@ -1,0 +1,23 @@
+body {
+    background-color: pink;
+    font-family: monospace;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+.hoi {
+    color: black;
+    text-align:center;
+    width: 100%;
+}
+
+h5 { text-align: center;
+}
+
+.winkeltjes {
+  background-color: purple;
+  width: 100%;
+}
