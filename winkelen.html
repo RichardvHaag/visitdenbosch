@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="winkelen.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+
+<title>Winkelen</title>
+</head>
+<body>
+
+
+
+
+<div id="bannerimage">
+  <img src="https://indebuurt.nl/denbosch/wp-content/uploads/2017/07/denbosch_citymarketing_ckarinjonkers029-bewerkt.jpg" alt="Banner" style="width:100%; height:400px;l;"></img>
+</div>
+
+<h1>VERKEN DE SHOPPING HOTSPOTS</h1>
+
+
+<br> </br>
+
+<div class="hoi">
+Hippe conceptstores, trendy modewinkels en mooie boetiekjes. Shoppen in 's-Hertogenbosch is shoppen in een uniek cultuurhistorisch decor, zowel in de grotere winkelstraten als in de sfeervolle zijstraatjes.
+Shop till you drop!
+</div>
+<br> </br>
+
+<table>
+<tr>
+   <th>KOOPAVOND</th>
+   <th>KOOPZONDAG</th>
+</tr>
+<tr>
+  <td> Nog even shoppen na het werk? Op donderdag is het koopavond in de binnenstad van 's-Hertogenbosch. De winkels zijn dan geopend tot 21.00 uur.</td>
+  <td> Het is elke zondag koopzondag in de binnenstad van 's-Hertogenbosch. Op deze koopzondagen zijn de winkels doorgaans geopend van 12.00 tot 17.00 uur.</td>
+</tr>
+</table>
+
+<br></br>
+
+<h2>ONTDEK DE SAMENGESTELDE SHOPPINGROUTES</h>
+<h3>HIPPE BOETIEKJES ROUTE</h>
+<h4>Houd je van leuke boetiekjes en wil je een keer wat anders dan bij een grote keten shoppen? Dan is deze route met leuke, hippe winkels in 's-Hertogenbosch iets voor jou!
+Een route waarin niks ontbreekt. Voor een lekker kopje koffie kun je terecht bij Robbies in de Verwersstraat, daarna loop je meteen door de winkel in. Voor stoere mannen is er de winkel Hype Heroes, een winkel met fashion en lifestyle. Echte ambacht kun je bewonderen bij De Pijp - Leer & Ambacht, hier is een werkplek gecreëerd waar verschillende LEER bedrijven samenwerken.
+</h>
+
+
+<br></br>
+
+
+<br></br>
+
+<div class="winkeltjes">
+    <table>
+      <tr>
+         <th> <button class="topbutton"><a href="https://www.bezoekdenbosch.nl/nl/wat-te-doen/shoppen/alle-winkels">Alle winkels</a> </button> </th>
+         <th> <button class="topbutton"><a href="https://www.openingstijden.nl/Noord-Brabant/s-Hertogenbosch/">De openingstijden</a> </button> </th>
+         <th> <button class="topbutton"><a href="Shoppingroutes.html">Shoppingroutes</a></button></th>
+    </tr>
+  </table>
+</div>
+
+
+<div class="top10">
+<h2> Top 10 winkels in Den Bosch</h>
+</div>
+
+
+<br></br>
+<br></br>
+
+<!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="http://www.miami.com/wp-content/uploads/sites/2/2017/12/Zara1-e1513267831454-1200x707.jpg" style="width:100%; height:300px;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="https://static.zara.net/photos///mkt/spots/ss18-calm-and-earthy-woman/home//desktop-imgminimalcollectiond.st.jpg?1521045596676" style="width:100%; height:300px;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="http://iontrend.nl/wp-content/uploads/2012/08/iontrend-047-copy.jpg" style="width:100%; height:300px;">
+  </div>
+
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="http://www.miami.com/wp-content/uploads/sites/2/2017/12/Zara1-e1513267831454-1200x707.jpg" style="width:100%" onclick="currentSlide(1)" alt="ZARA">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://static.zara.net/photos///mkt/spots/ss18-calm-and-earthy-woman/home//desktop-imgminimalcollectiond.st.jpg?1521045596676" style="width:100%" onclick="currentSlide(2)" alt="ZARA">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://iontrend.nl/wp-content/uploads/2012/08/iontrend-047-copy.jpg" style="width:100%" onclick="currentSlide(3)" alt="ZARA">
+    </div>
+
+  </div>
+</div>
+
+<script>
+document.getElementById("demo").innerHTML = "My First JavaScript";
+var slideIndex = 1;
+showSlides(slideIndex);
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</body>
+</html>
