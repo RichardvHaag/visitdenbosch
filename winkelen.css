@@ -17,7 +17,19 @@ h1 {
     color: black;
     text-align: center;
 }
+.nr1{
+  text-align: center;
+  background-color: brown;
+}
+.nummer2 {
+  text-align: center;
+  background-color: red;
 
+}
+ .nr3 {
+   text-align: center;
+   background-color: blue;
+ }
 .hoi {
     color: black;
     text-align:center;
@@ -32,6 +44,7 @@ h5 { text-align: center;
   width: 100%;
 }
 
+
 .topbutton {
         border: 2px solid black;
         background-color: white;
@@ -41,7 +54,9 @@ h5 { text-align: center;
         cursor: pointer;
     border-radius: 5px;
     font-family: monospace;
+
 }
+
 
 .top10 {
   font-family: monospace;
