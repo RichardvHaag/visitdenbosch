@@ -1,11 +1,40 @@
 
-#bannerimage {
-width: 100%;
-height: auto;
+
+h1 {
+    font-family: "Arial", Arial, sans-serif;
+      text-align: center;
+    background-color: black;
+    color: white;
 }
 
+h2 {
+  font-family: "Arial", Arial, sans-serif;
+  text-align: center;
+  color: #85C1E9;
+}
 
+h3 {
+  font-family: "Arial", Arial, sans-serif;
+  text-align: center;
+  width: 900px;
+}
 
+p {
+  font-family: "Arial", Arial, sans-serif;
+  width: 900px;
+}
+img {
+  align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#imghover:hover{
+opacity: 0.5
+}
 body {
     background-color: pink;
     font-family: monospace;
