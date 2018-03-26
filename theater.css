@@ -1,0 +1,117 @@
+#bannerimage {
+width: 100%;
+height: auto;
+}
+
+#inleiding {
+width: 100%;
+}
+
+h1 {
+    font-family: FrutigerLTPro,"Open Sans",Arial,sans-serif;
+    color: white;
+    background-color: black;
+    padding-left: 2%;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  /*background-color: black;*/
+  /*padding-left: 2%;*/
+  margin-left: 40%;
+  margin-right: 15%;
+}
+
+.theater {
+  margin-left: 30%;
+  width: 40%;
+  height: 35%;
+  object-fit: cover;
+}
+
+.theaterimg {
+  width:20%;
+  height: 24%;
+  object-fit: cover;
+  float: right;
+  padding-right: 15%
+}
+
+.inleiding {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  background-color: white;
+  margin-left:40%;
+  margin-right: 18%;
+  text-align: justify;
+}
+
+.schouwburg {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  background-color: white;
+  padding-left: 40%;
+  margin-right: 15%;
+}
+
+.zalen{
+  font-family: "Roboto", sans-serif;
+  color: black;
+  background-color: white;
+  margin-left: 40%;
+  margin-right: 15%;
+  text-align: justify;
+}
+
+.algemeen {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    background-color: white;
+    padding-left: 40%;
+
+}
+
+.contact {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  background-color: white;
+  margin-left: 40%;
+  margin-right: 18%;
+  text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    float:left;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+li a.active {
+    background-color: #85C1E9;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+/*
+.cinemaclub {
+  width:13%;
+  height: 12%;
+  object-fit: cover;
+  float: right;
+  padding-right: 15%
+}*/
