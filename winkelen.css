@@ -1,3 +1,13 @@
+body { margin-left: 20%;
+  margin-right: 20%;
+text-align: left;
+  }
+
+head {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
 
 
 h1 {
@@ -28,10 +38,13 @@ img {
 }
 
 
-
+.filmpje {
+  background-color: #ADD8E6;
+  text-align: center;
+}
 .winkeltjes {
   background-color: purple;
-  width: 100%;
+  width: 50%;
 }
 
 
@@ -47,5 +60,15 @@ img {
 
 }
 
+#imghover {
+  padding-left: 50px;
+  padding-right: 10px;
+}
 
-.
+#imghover:hover {
+  opacity: 0.5;
+}
+
+.soort {
+  text-align: left;
+}
