@@ -2,11 +2,11 @@
 .logo {
   margin: 10px 20px 10px 20px;
 }
- .hometekst {
-   background-color:red;
-   font-size:40px;
-   font-family: 'Berlin Sans FB', sans-serif;
- }
+.hometekst {
+  background-color:red;
+  font-size:20px;
+}
+
 
 .artikel1 {
 
@@ -18,8 +18,21 @@
 width: 10%;
 
 }
+.LALALAA {font-style: italic;
+font-size: 15px;
+text-decoration: underline;
 
-.Eten {
+}
 
+.Opium {
+
+  font-style: italic;
+  font-size: 15px;
+  text-decoration: underline;
+}
+.CARRAS
+{font-style: italic;
+font-size: 15px;
+text-decoration: underline;
 
 }
