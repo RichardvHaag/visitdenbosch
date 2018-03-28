@@ -1,6 +1,5 @@
-body { margin-left: 20%;
-  margin-right: 20%;
-text-align: left;
+body { 
+text-align: center;
   }
 
 head {
@@ -9,7 +8,8 @@ head {
   margin-right: 0;
 }
 
-
+p {
+  font-family: sans-serif;
 h1 {
     font-family: "Arial", Arial, sans-serif;
       text-align: center;
